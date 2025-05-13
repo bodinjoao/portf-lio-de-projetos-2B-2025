@@ -10,37 +10,57 @@
 <!--inicio do corpo da página-->
 <body>
 <!--Cabeçalho com informações de perfil -->
-<header>
-    <img src="img/avatar-perfil.png" alt="avatar da Fernanda" width="150" height="150">
-    <p>Eu sou Fernanda_</p>
+<header class="container text-center mt-5">
+    <img src="img/avatar-perfil.png" class="rounded-circule" width="150" height="150" alt="avatar da Fernada">
+    <p class="lead">Eu sou Fernanda_</p>
     <h1>Eu ensino Progamação</h1>
     <p>Sou Engenheira de Computação e Pedagoga. Ensino pensamento computacional usando HTML, CSS e 
         JavaScript.</p>
         <p>Minhas habilidaes:</p>
-        <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Scratch</li>
-    </ul>
-</header> 
+        <div>
+        <!-- Exibe uma habilidade como um selo visual -->
+         <span class="badge bg-secondary">HTML</span>
+          <!-- Exibe uma habilidade como um selo visual -->
+         <span class="badge bg-secondary">CSS</span>
+        <!-- Exibe uma habilidade como um selo visual -->
+         <span class="badge bg-secondary">JavaScript</span>
+         <!-- Exibe uma habilidade como um selo visual -->
+         <span class="badge bg-secondary">Scratch</span>
+      </div>
+        </header> 
 <!--Conteúdos principal com a lista de projetos -->
-<main>
-    <h2>Meus projetos</h2>
-    <section>
-        <h3>Projeto 1</h3>
-        <p>Minha Biblioteca: Uma Webpage Personalizada</p>
-       </section>
-       <section>
-        <h3>Projeto 3</h3>
-        <p>Decidindoo Futuro: Uma Jornada interativa sobre a inteligência a Artificial</p>
-       </section>
-       <section>
-        <h3>Projeto 3</h3>
-        <p>Explorando o Universo:Uma Aventura Interativa em Astronomia com Scratch</p>
-</section>
-</main>
-<!-- Rodapé com informações de contato -->
+<main class="container mt-5">
+    <h2 class="text-center">Meus projetos</h2>
+    <div class="row">
+
+     <div class="col-md-4">
+     <div class="card">
+     <img src="img/projeto-1.png"class="card-img-top" alt="Projeto 1">
+    <div class="card-body">
+     <h5 class="card-title">Minha Biblioteca</h5>   
+     <p class="card-text">Pagina com livros favoritos estilizada com CSS.</p>
+     <button type="button" class="btn btn-link" data-bs-toggle="modal"data-bs-target="#modal11">Veja o Projeto</button>
+    </div>
+       </div>
+          </div>
+                </div>
+                    </main>
+ <div class="modal fade" id="modal11"tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"></h5>
+
+
+
+
+
+
+
+
+
+
+                    <!-- Rodapé com informações de contato -->
  <footer>
     <h2>Entre em contato</h2>
     <p>Gthub: femascheti</p>
